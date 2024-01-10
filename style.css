@@ -1,0 +1,658 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navBar{
+    width: 100%;
+    position:fixed;
+    background-color:rgb(15, 12, 19);
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+.navBar .logo img{
+    height: 30px;
+    margin-left: 8rem;
+}
+.links{
+    display: flex;
+    color: white;
+}
+.navLinks{
+    display: flex;
+    text-indent: 2rem;
+}
+.navLinks li{
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    margin-top: 10px;
+}
+.navLinks a{
+    color: white;
+}
+.links button{
+    margin-left: 1.5rem;
+    font-size: 12px;
+    font-family:"Open Sans", sans-serif;
+    color:#0094b9;
+    border-color: #0094b9;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color:black;
+}
+.links button:hover{
+    background-color:#0094b9;
+    color: white;
+}
+.navBar .num{
+    margin-right: 2rem;
+}
+.navBar .num h3{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    color: white;
+}
+.navBar .num p{
+    color: #0094b9;
+}
+.heroSection{
+    background-image: url(images/genius-coder-programme.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+    height: 60vh;
+    background-color: rgba(0,0,0,0.3);
+}
+.heroSection .title{
+    padding: 150px 10px 50px 200px;
+}
+.heroSection .title h1{
+    font-size: 52.8px;
+    font-family:"Open Sans", sans-serif ;
+    color: white;
+    border-left: solid;
+    border-color: #0094b9;
+    padding-left: 25px;
+    line-height:6rem;
+}
+.heroSection .title h5{
+    font-size: 20px;
+    font-family:"Open Sans", sans-serif ;
+    margin-top: 1rem;
+    color: white;
+}
+.mainsection1 .main1 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: #32325D;
+}
+.mainsection1 .main1 .leftside{
+    width: 35%;
+    /* position:relative; */
+    left: 10%;
+    line-height: 1.7;
+}
+.mainsection1 .main1 .leftside .paragraph1{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif ;
+    color: #525f7f;
+}
+.mainsection1 .main1 .leftside .paragraph2{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif ;
+    margin-top: 2rem;
+    color: #525f7f;
+}
+.mainsection1 .main1 .leftside .image img{
+    /* padding: 20px 0 20px 10px; */
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    max-width: 90%;
+    height: auto;
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.rightside{
+    width: 30%;
+    margin-left: 30px;
+}
+.rightside .links{
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+}
+.rightside .links a{
+    color: #0094b9;
+}
+.rightside .time li{
+    list-style-type: square; 
+}
+.rightside .time{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+.rightside p{
+    padding: 10px 0 10px 0;  
+}
+.rightside .sem p{
+    line-height: 2.5rem;
+}
+.rightside .fees{
+    margin-top: 3rem;
+}
+table {
+    width: 130%;
+    height: 80vh;
+    border-collapse: collapse;
+}
+th , td{
+    border:1px solid #dee2e6;
+}
+th{
+    font-size: 13px;
+    font-family:"Open Sans", sans-serif ;
+    color: #525f7f;
+    width: 40%;
+    vertical-align: top;
+    text-align: start;
+    padding:  10px 0 10px 10px;
+}
+td{
+    font-size: 13px;
+    font-family:"Open Sans", sans-serif ;
+    color: #525f7f;
+    padding: 10px 90px 15px 20px;
+}
+.rightside button{
+    margin-top: 20px;
+    padding: 15px ;
+    width: 131%;
+    border-radius: 5px;
+    border: 2px solid #0094b9;
+    background-color: transparent;
+   font-size: 14px;
+   font-family:"Open Sans", sans-serif ;
+   color: #0094b9;
+}
+.rightside button:hover{
+    background-color: #0094b9;
+    color: white;
+}
+.mainsection2 .main2 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 32px;
+    font-family:"Open Sans", sans-serif ;
+    color:#32325D ;
+}
+.mainsection2 .main2 p{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif ;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 18%;
+    line-height: 1.7;
+    color: #525f7f;
+}
+.cardContainer{
+    width: 100%;
+    height: 80vh;
+    background-color:#ffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px ,1fr));
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px 20px 0 20px;
+}
+.cardContainer i{
+    color: #ffff;
+}
+.card{
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.card:first-child{
+    background-color: #0094b9;
+}
+.card:nth-child(2)  {
+    background-color: #eeb834;
+}
+.card:nth-child(2) i {
+    background-color:#f7dc69;
+}
+.card:nth-child(3){
+    background-color: #222222;
+}
+.card:nth-child(3) i{
+    background-color: #919191;
+}
+.cardHeader{
+    margin-top: 3rem;
+    text-align: center;
+}
+.cardHeader h4{
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    padding: 40px 0px 20px;
+}
+.cardHeader i{
+    font-size: 30px;
+    padding: 22px 20px;
+    border-radius: 50px;
+    background-color: #80cadc;
+}
+.cardBody{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.cardBody li{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif ;
+    color: #ffff;
+}
+.cardBody .left li, .right li{
+    padding: 10px ;
+}
+.cardBody i{
+    margin-right: 10px;
+    padding: 7px;
+    background-color:#80cadc ;
+    border-radius: 60px;
+}
+.cardBody .right span{
+    margin-right: 10px;
+    padding: 8px;
+    background-color: #f7dc69;
+    border-radius: 60px;
+    font-size: 14px;
+}
+.mainsection3{
+    background-image:linear-gradient(rgba(0,0,1,.4),rgba(0,0,1,.7)), url(images/virtual-reality-courses.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: 50% 20%;
+    height: 120vh;
+}
+.mainsection3 .main3{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.mainsection3 .main3 h2{
+    font-size: 44px;
+    font-family:"Open Sans", sans-serif ;
+    color:#ffff;
+    margin-top: 12rem;
+}
+.mainsection3 .main3 .paragraph3 {
+    font-size: 44px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #eeb834;
+    width: 50%;
+    line-height: 4rem;
+}
+.mainsection3 .main3 .paragraph4 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-top: 1.5rem;
+    line-height: 1.7;
+    /* font-weight: 300px; */
+    color: #ffff;
+}
+.mainsection4{
+    height: 60vh;
+}
+.mainsection4 .main4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainsection4 .main4 h2{
+    font-size: 32px;
+    font-family:"Open Sans", sans-serif ;
+    text-align: center;
+    color: #32325d;
+    margin-top: 5rem;
+    line-height: 3rem;
+    width: 50%;
+}
+.mainsection4 .main4 .line1{
+    font-size: 20px;
+    font-family:"Open Sans", sans-serif ;
+    color: #525f7f;
+    margin-top: 2rem;
+}
+.mainsection4 .main4 .line2{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif ;
+    color: #525f7f;
+    margin-top: 1.5rem;
+}
+.mainsection4 .main4 button{
+    width: 50%;
+    padding: 15px;
+    margin-top:2rem ;
+    border: 2px solid #0094b9;
+    background-color: transparent;
+    border-radius: 5px;
+   font-size: 14px;
+   font-family:"Open Sans", sans-serif ;
+   color: #0094b9;
+   font-weight: 300px;
+}
+.mainsection4 button:hover{
+    background-color: #0094b9;
+    color: white;
+}
+.mainsection5{
+    background-color: #172b4d;
+}
+.mainsection5 .main5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainsection5 .main5 h2{
+    margin-top: 4rem;
+    color: #ffff;
+    font-size: 44px;
+    font-family:"Open Sans", sans-serif ;
+}
+.mainsection5 .main5 .subtitle{
+    margin-top: 1.5rem;
+    color:#eeb834;
+    font-size: 44px;
+    font-family:"Open Sans", sans-serif ;
+}
+.mainsection5 .main5 .paragraph5{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-top: 1.5rem;
+    line-height: 1.7;
+    color: #ffff;
+}
+.mainsection5 .main5 .paragraph6{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-top: 1.5rem;
+    line-height: 1.7;
+    color: #ffff;
+}
+.cardContainer2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 50px 25px;
+    gap: 2rem;
+}
+.card2{
+    height: 40vh;
+    width: 100%;
+    background-color: #ffff;
+    border: 12px solid #ffff;
+    border-radius: 5px;
+}
+.cardimage img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/11;
+    object-fit: cover;
+    border-radius: 5px ;
+}
+.cardname i{
+    margin-right: 10px;
+}
+.cardname h3{
+    color: #32325d;
+    font-size: 20px;
+    font-family:"Open Sans", sans-serif;
+    text-align: center; 
+    margin-top: 10px;
+}
+.card2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.main6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainsection6 .main6 h2{
+    width: 60%;
+    font-size: 32px;
+    font-family:"Open Sans", sans-serif;
+    color: #32325d;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 3rem;
+}
+.mainsection6 .main6 .paragraph7{
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    color: #525f7f;
+}
+.mainsection6 .main6 .paragraph8{
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    color: #525f7f;
+}
+.mainsection6 .main6 img{
+    width: 50%;
+    padding: 30px;
+}
+.mainsection6 .main6 .paragraph9{
+    width:49%;
+    text-align: center;
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    color: #525f7f;
+}
+.mainsection7{
+    background-color: #ffff;
+}
+.mainsection7 .main7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainsection7 .main7 h4{
+    font-size: 24px;
+    font-family:"Open Sans", sans-serif;
+    margin-top: 2rem;
+}
+.mainsection7 .main7 p{
+    width: 50%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    line-height: 1.5rem;
+    color: #525f7f;
+}
+.mainsection7 .main7 img{
+    width: 50%;
+    margin-top: 2rem;
+}
+.mainsection7 .main7 .b1{
+    width: 48%;
+    margin-top: 3rem;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+.mainsection7 .main7 .b2{
+    width: 48%;
+    margin-top: 2rem;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+.mainsection7 .main7 .b1:hover{
+    background-color: #172b4d;
+    color: #ffff;
+}
+.mainsection7 .main7 .b2:hover{
+    background-color: #0094b9;
+    color: white;
+}
+.footerContainer{
+    background-color:black;
+    height: 50vh;
+}
+.footersection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100%;
+    padding: 50px 0 0 0 ;
+}
+.footersection .first img{
+    width: 80%;
+}
+
+.footersection .first p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    /* line-height: 1.5rem; */
+    color: #525f7f;
+}
+.footersection .first .contacts i{
+    color:#738898;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.footersection .first .contacts a{
+    color: #0094b9;
+}
+.footersection .first .contacts a:hover{
+    color: #0000ff;
+}
+.footersection .first .contacts li{
+    color:#738898 ;
+}
+.footersection .second h4{
+    font-size: 24px;
+    font-family:"Open Sans", sans-serif;
+    color:#738898;
+}
+.footersection .second .links2 a{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    color: #0094b9;
+}
+.footersection .second .links2 a:hover{
+    color: #0000ff;
+}
+.footersection .third h4{
+    font-size: 24px;
+    font-family:"Open Sans", sans-serif;
+    color:#738898;
+    line-height: 3rem;
+}
+.footersection .four h4{
+    margin-top: 10px;
+}
+.footersection .four button{
+    width: 100px;
+    padding: 10px ;
+    border-radius: 5px;
+    border: 2px solid #2dce89;
+    color: #2dce89;
+    background-color: black;
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif ;
+    position: relative;
+    bottom: 20px; 
+    /* left: 20px; */
+}
+.footersection .four button:hover{
+    background-color: #2dce89;
+    color: #ffff;
+}
+
+.third .images1 img{
+    width: 3.5rem;
+    border-radius: 50px;
+    padding:14px;
+    background-color: #3b5998;
+}
+.third .images1 .img2{
+    width: 3.5rem;
+    border-radius: 50px;
+    padding:14px;
+    background-color: #df3d38;
+}
+.four .images2 img{
+    width: 3.5rem;
+    border-radius: 50px;
+    padding:14px;
+    background-color: #54daa180;
+}
+.footerContainer .five {
+    background-color: #738898;
+}
+.footerContainer .five .last{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    padding: 20px 0 20px 0;
+}
+.footerContainer .five .last p{
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    color:#738898;
+}
+.footerContainer .five .last .year a{
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    color: #0094b9;
+
+}
+.footerContainer .five .last .year a:hover{
+    color:#0000ff;
+}
+.footerContainer .five .last  a{
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    color:#738898 ;
+}
+.footerContainer .five .last a:hover{
+    color: #ffff;
+}

@@ -1,0 +1,229 @@
+.checkbtn {
+    color: #ffff;
+    font-size: 25px;
+    padding: 6px 6px;
+    display: none;
+    border-radius: 5px;
+    /* border: 2px solid blue; */
+    margin-right: 10px;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width:576px) {
+    .navBar {
+        width: 100%;
+    }
+
+    .navBar .logo img {
+        margin-left: 1rem;
+    }
+
+    .navLinks {
+        height: 320%;
+        display: none;
+        width: 100%;
+        background-color: rgb(17, 14, 14);
+        position: absolute;
+        top: 95px;
+        left: 0px;
+        flex-direction: column;
+        line-height: 2rem;
+    }
+    .navBar .num{
+        display: none;
+    }
+    .navLinks a:hover{
+        color:#0094b9 ;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.links .navLinks{
+        display: flex;
+    }
+    .heroSection .title {
+        padding: 150px 0 0 30px;
+    }
+    .heroSection .title h1 {
+        width: 100%;
+        font-size: 30px;
+        padding-left:10 px;
+        line-height: 4rem;
+        margin-top: 30px;
+    }
+
+    .mainsection1 .main1 h2 {
+        text-align: center;
+        margin-top: 2rem;
+        line-height: 3rem;
+    }
+
+    .mainsection1 .main1 .leftside {
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+
+    .mainsection1 .main1 .leftside .paragraph1 {
+        text-align: center;
+    }
+
+    .mainsection1 .main1 .leftside .paragraph2 {
+        text-align: center;
+    }
+
+    .mainsection1 .main1 .leftside .image img {
+        margin-left: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .rightside {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .mainsection2 .main2 h2 {
+        text-align: center;
+    }
+
+    .mainsection2 .main2 p {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 20px 20px 20px;
+        text-align: center;
+    }
+
+    .cardContainer {
+        height: 100%;
+        /* padding: 0 10px 10px 10px; */
+    }
+
+    .card {
+        height: 100%;
+    }
+
+    .mainsection3 {
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .mainsection3 .main3 h2 {
+        margin-top: 20px;
+    }
+
+    .mainsection3 .main3 .paragraph3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mainsection3 .main3 .paragraph4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mainsection4{
+        height: 100%;
+    }
+    .mainsection4 .main4 h2{
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+        padding:0 10px 0 10px;
+    }
+    .mainsection4 .main4 .line1{
+        text-align: center; 
+        padding: 0 10px 0 10px;
+    }
+    .mainsection4 .main4 button{
+        margin-bottom: 20px;
+    }
+    .mainsection5 .main5 h2{
+        text-align: center;
+    }
+    .mainsection5 .main5 .subtitle{
+        text-align: center;
+    }
+    .mainsection5 .main5 .paragraph5{
+        width: 100%;
+    }
+    .mainsection5 .main5 .paragraph6{
+        width: 100%;
+    }
+    .card2{
+        height: 100%;
+    }
+    .mainsection6 .main6 h2{
+        width: 100%;
+    }
+    .mainsection6 .main6 .paragraph7{
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+    .mainsection6 .main6 .paragraph8{
+        width: 100%;
+    }
+    .mainsection6 .main6 img{
+        width: 100%;
+    }
+    .mainsection6 .main6 .paragraph9{
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+    .mainsection7 .main7 p{
+        width: 100%;
+    }
+    .mainsection7 .main7 img{
+        width: 100%;
+    }
+    .mainsection7 .main7 .b1{
+        width: 90%;
+    }
+    .mainsection7 .main7 .b2{
+        width:90% ;
+    }
+    .footerContainer{
+        height: 100%;
+    }
+    .footersection{
+        flex-direction: column;
+    }
+    .footersection .first img{
+        width: 50%;
+        margin-left: 8rem;
+    }
+    .footersection .first p{
+        text-align: center;
+    }
+    .footersection .first .address  {
+        margin-left:150px;
+    }
+    .footersection .second h4{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+    .footersection .second .links2 a{
+        margin-left: 150px;
+    }
+    .footersection .third h4{
+        text-align: center;
+        margin-right: 50px;
+    }
+    .footersection .four h4{
+        text-align: center;
+        margin-left: 70px;
+    
+    }
+    .third .images1 {
+        margin-left: 150px;
+    }
+    .four .images2{
+        margin-left: 150px;
+    }
+    
+}
